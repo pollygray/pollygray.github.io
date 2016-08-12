@@ -1,0 +1,15 @@
+body 	{background-color: gray;
+		color: white;
+		}
+
+h1 	{background-color: White;
+	color: gray;
+	padding: 20px;
+	margin-bottom: 50px;
+	font-size: 45px;
+	text-align: center;
+	text-decoration: underline;
+	
+}
+p {width: 500px;
+}
