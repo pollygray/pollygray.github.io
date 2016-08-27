@@ -19,10 +19,10 @@
 	padding: 40px;
 }
 
-hr {
+.hero hr {
 	margin: auto;
 	width: 430px;
-	height: 2px;
+	height: 4px;
 	border: none;
 	background: #F4A549;
  
@@ -40,9 +40,16 @@ h1 {
 	font-family: 'Scope One', serif;
 }
 
+hr {
+	width: 100%;
+	height: 2px;
+	border: none;
+	background: #F4A549;
+
+}
 .detail {
 	text-align: center;
-	padding: 100px 15% 100px 15%;
+	padding: 150px 15% 180px 15%;
 	font-family: 'Scope One', serif;
 	background: #F2F3F4;
 }
@@ -74,7 +81,8 @@ footer a {
 	font-size: 2em;
 	padding: 20px 30px 20px 30px;
 	text-decoration: none;
-	color: #F4A549;
+	color: #402524;
 	background: #F2F3F4;
 	border-radius: 50px;
+	border: solid 4px #F4A549;
 }
