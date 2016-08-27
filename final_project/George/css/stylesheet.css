@@ -1,6 +1,8 @@
 * {
 	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 header {
 	position: fixed;
@@ -13,26 +15,35 @@ header {
 header div {
 	background: white;
 	text-align: center;
-	margin-top: -20px;
 	padding: 10px;
 	color: #595757;
 }
+header div a {
+	display: block;
+	text-decoration: none;
+}
 header h2 {
-	text-decoration: underline;
 	padding-top: 10px;
 	color: #595757;
 }
+header hr {
+	border: none;
+	height: 2px;
+	background-color: #595757;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
 header h3 {
-	margin-top: -20px;
 	text-decoration: none;
 	color: #595757;
 }
 
 nav {
 	background: #595757;
-	margin-top: -20px;
-	padding: 20px;
 	font-size: 0.9em;
+	text-align: center;
+	padding: 10px;
 	
  	
 }
@@ -46,7 +57,7 @@ nav a {
 	text-decoration: none;
 }
 .link {
-	padding: 20px;
+	padding: 10px 20px;
 	text-decoration: none;
 	color: white;
 }
@@ -58,31 +69,36 @@ nav a {
 	background: url(background.jpg);
 	background-size: cover;
 	height: 768px;
-	position: relative;
+}
+.welcome hr {
+	border: none;
+	height: 3px;
+	background-color: #595757;
+	width: 240px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #bar {
 	height: 250px;
 	background-color: white;
 	position: absolute;
-	margin-top: 15%;
 	width: 100%;
 	text-align: center;
+	margin-top: 322px;
+	padding: 70px;
 	/*opacity: 0.6;*/
 }
 
 .welcome h1{
 	font-size: 2em;
-	margin-top: 80px;
-	text-decoration: underline;
-	margin-bottom: -15px;
 	color: #595757;
 }
 
 .welcome h3 {
-	margin-bottom: 40px;
 	font-size: 1em;
 	color: #595757;
+	padding-bottom: 20px;
 }
 
 .welcome a {
@@ -94,56 +110,64 @@ nav a {
 	
 }
 #portfolio {
-	height: 800px;
-	display: block;
+	height: 400px;
 	background-color: #EDF1F2;
-	position: relative;
+	padding: 0 20%;
 
 }
 
-.left_column {
-	margin-top: 10%;
-	width: 30%;
-	margin-left: 20%;
-	padding: 15px;
+.column-2 {
+	width: 50%;
 	float: left;
 	/*background: #DCDDDE;
 	border-radius: 10px;*/
 	height: 400px;
-	position: relative;
 	border-right: dotted #DCDDDE;
 	text-align: center;
 }
-.right_column {
-	margin-top: 10%;
-	width: 30%;
-	margin-right: 20%;
-	padding: 15px;
-	float: left;
-	/*background: #DCDDDE;
-	border-radius: 10px;*/
-	height: 300px;
-	position: relative;
-	text-align: center;
 
+.column-2:nth-of-type(2) {
+	border: none;
 }
 
+.column-2 h3 {
+	font-size: 1.5em;
+	text-align: center;
+	color: #595757;
+	padding: 30px 0 20px 0;
+}
 
-.column a {
+@media screen and (max-width: 900px) {
+	.column-2 {
+		float: none;
+		width: 100%
+		margin: 0;
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#portfolio {
+		height: 800px;
+		padding: 0;
+	}
+	.column-2 h3 {
+		font-size: 1.5em;
+		color: #595757;
+		padding: 30px 0 20px 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*.portfolio a {
 
 	padding: 10px 20px 10px 20px;
 	background: white;
 	text-decoration: none;
 	color: black;
-}
+}*/
 
-.column h3 {
-	font-size: 1.5em;
-	margin-top: -10px;
-	text-align: center;
-	padding: 20px;
-	color: #595757;
-}
+
 
 .small_image {
 	width: 250px;
@@ -164,6 +188,7 @@ nav a {
 	margin-left: 20px;
 	font-size: 1.5em;
 	color: #595757;
+	text-align: center;
 }
 
 footer {
