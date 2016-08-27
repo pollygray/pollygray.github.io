@@ -88,11 +88,11 @@ footer {
 }*/
 footer a {
   background: #F2F3F4;
-  background-image: -webkit-linear-gradient(top, #F2F3F4, #F1D3C9);
+  /*background-image: -webkit-linear-gradient(top, #F2F3F4, #F1D3C9);
   background-image: -moz-linear-gradient(top, #F2F3F4, #F1D3C9);
   background-image: -ms-linear-gradient(top, #F2F3F4, #F1D3C9);
   background-image: -o-linear-gradient(top, #F2F3F4, #F1D3C9);
-  background-image: linear-gradient(to bottom, #F2F3F4, #F1D3C9);
+  background-image: linear-gradient(to bottom, #F2F3F4, #F1D3C9);*/
   -webkit-border-radius: 15;
   -moz-border-radius: 15;
   border: solid 2px #F4A549;
