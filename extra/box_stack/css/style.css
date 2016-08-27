@@ -1,0 +1,48 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(background.png);
+	background-repeat:no-repeat;
+    background-position:fixed;
+ 	margin-left: 60px;
+    padding-right: 20px;
+
+
+}
+.small {
+	width: 100px;
+	margin-left: 80%;
+
+}
+
+.medium {
+	width: 200px;
+}
+
+.large {
+	width: 300px;
+}
+
+/*.one {
+	float: right;
+	display: block;
+	padding: 50px;
+	
+}*/
+
+.left {
+	float: left;
+	
+}
+
+.right {
+	float: right;
+}
+
+/*.two {
+	float: left;
+}*/

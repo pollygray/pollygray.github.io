@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.hero {
+	color: #573231;
+	background: url(stage-lighting.jpg);
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+	padding: 200px 0;
+	
+}
+.hero div {
+	background-color: #F2F3F4;
+	width: 100%;
+	padding: 40px;
+}
+
+hr {
+	margin: auto;
+	width: 430px;
+	height: 2px;
+	border: none;
+	background: #F4A549;
+ 
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Scope One', serif;
+
+}
+
+.hero p {
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: 'Scope One', serif;
+}
+
+.detail {
+	text-align: center;
+	padding: 100px 15% 100px 15%;
+	font-family: 'Scope One', serif;
+	background: #F2F3F4;
+}
+
+.detail div {
+	border: dotted 3px #F4A549;
+	padding: 50px 100px 50px 100px;
+	color: #402524;
+
+}
+.detail p {
+	font-size: 1.5em;
+}
+.detail li {
+	list-style-type: none;
+	padding: 10px;
+	font-size: 1.2em;
+}
+
+footer {
+	height: 200px;
+	text-align: center;
+	background: #402524;
+	padding: 80px;
+	font-family: 'Scope One', serif;
+}
+
+footer a {
+	font-size: 2em;
+	padding: 20px 30px 20px 30px;
+	text-decoration: none;
+	color: #F4A549;
+	background: #F2F3F4;
+	border-radius: 50px;
+}
