@@ -19,10 +19,12 @@ body {
 	padding: 0;
 	margin: 0;
 }
-.med_image {
-	width: 500px;
-	margin: auto;
-	
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: justify;
+	max-width: 480px; 
 }
 
 h3 {
@@ -30,6 +32,12 @@ h3 {
 	color: black;
 	font-size: 2em;
 	padding: 0 1em 1em 1em;
+}
+
+.med_image {
+	width: 500px;
+	margin: auto;
+	
 }
 
 
@@ -173,17 +181,6 @@ hr {
 #about_me {
 	padding: 20px;
 	border: solid 2px #F4A549;
-}
-.detail p {
-	font-size: 1em;
-	line-height: 1.5em;
-	text-align: justify;
-}
-
-.main p {
-	font-size: 1em;
-	line-height: 1.5em;
-	text-align: justify;
 }
 
 
