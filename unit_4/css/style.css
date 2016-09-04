@@ -196,6 +196,23 @@ hr {
 	}
 }
 
+@media screen and (max-width:847px){
+	.column-2 {
+	width: 90%;
+	margin: 30px 5%;
+	float: left;
+	border: dotted 2px #F4A549;
+	padding: 2em;
+	color: #402524;
+	text-align: justify;
+	}
+	.detail {
+		height: 900px;
+	}
+	h3 {
+		text-align: center;
+	}
+}
 .column-2_plain {
 	width: 44%;
 	margin: 80px 3%;
@@ -218,6 +235,7 @@ hr {
 .social_media {
 	background: #F4A549;
 	height: 200px;
+	position: relative;
 }
 
 
@@ -234,10 +252,10 @@ figure {
 .bar {
 	background: #F2F3F4;
 	display: inline-block;
-	margin-top: 24.57px;
+	/*margin-top: 24.57px;*/
 	width: 100%;
 	padding: 30px 21.3%;
-
+	position: absolute;
 }
 .space {
 	background: #F2F3F4;
