@@ -160,9 +160,9 @@ hr {
 }
 */
 .detail {
-	padding: 0 20%;
+	padding: 0 10%;
 	background: #F2F3F4;
-	height: 500px;
+	height: 650px;
 	display: block;
 }
 
@@ -181,8 +181,8 @@ hr {
 }
 
 figure{
-    width:39%;
-    margin:0 5%;
+    width:30%;
+    margin:80px 1.56%;
     /*border:2px solid red;*/
     position:relative;
     display: inline-block;
