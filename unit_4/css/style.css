@@ -1,0 +1,254 @@
+@import 'https://fonts.googleapis.com/css?family=Armata|Kadwa';
+/*font-family: 'Armata', sans-serif;
+font-family: 'Kadwa', serif;*/
+
+
+/*orange #F4A549
+brown #B4684A
+off white #F2F3F4
+pink #F1D3C9
+dark #402524*/
+
+body {
+	font-size: 16px;
+	font-family: 'Kadwa', serif;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.med_image {
+	width: 500px;
+	margin: auto;
+	
+}
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+ 	left: 0;
+ 	font-family: 'Armata', sans-serif;
+}
+header div {
+	background: white;
+	text-align: center;
+	padding-bottom: 3px;
+	}
+header div a {
+	display: block;
+	text-decoration: none;
+}
+header h2 {
+	padding-top: 10px;
+	color: #595757;
+}
+header hr {
+	border: none;
+	height: 2px;
+	background-color: #F4A549;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header h3 {
+	text-decoration: none;
+	color: #595757;
+}
+
+nav {
+	background: #402524;
+	font-size: 0.9em;
+	text-align: center;
+	padding: 10px;
+	border-bottom: solid #F4A549 2px;
+}
+
+nav a {
+	text-decoration: none;
+}
+.link {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+}
+.link:hover{
+	background: #03465C;
+}
+
+.hero {
+	color: #573231;
+	background: url(stage-lighting.jpg) top right no-repeat; background-attachment:fixed;
+	background-size: cover;
+	height: 640px;
+	text-align: center;
+	padding: 160px 0;
+	
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Scope One', serif;
+
+}
+
+.hero p {
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: 'Scope One', serif;
+}
+
+
+hr {
+	width: 100%;
+	height: 2px;
+	border: none;
+	background: #F4A549;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #F4A549;
+  background: #F2F3F4;
+  margin: auto;
+}
+/*.detail {
+	background: url(../images/logo_overlay.png);
+	background-size: cover;
+	text-align: center;
+	padding: 150px 15% 180px 15%;
+	font-family: 'Scope One', serif;
+	margin: auto;
+	height: 300px;
+	background: #F2F3F4
+	width: 80%;
+}
+*/
+.detail {
+	padding: 0 15%;
+	background: #F2F3F4;
+	height: 650px;
+	
+
+	
+}
+.column-2 {
+	/*background: url(../images/logo_overlay.png) center no-repeat;*/
+	width: 44%;
+	margin: 80px 3%;
+	float: left;
+	border: dotted 2px #F4A549;
+	padding: 2em;
+	color: #402524;
+	/*height: 400px;*/
+	text-align: center;
+}
+.column-2_plain {
+	width: 44%;
+	margin: 80px 3%;
+	float: left;
+	/*border: solid 2px #F4A549;*/
+	/*padding: 50px 100px 50px 100px;*/
+	color: #402524;
+	text-align: center;
+	
+
+}
+.detail p {
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: justify;
+
+}
+
+.detail h3 {
+	font-family: 'Armata', sans-serif;
+	font-size: 2em;
+	padding: 0 1em 1em 1em;
+}
+
+.small_image {
+	width: 300px;
+}
+
+.social_media {
+	background: #F4A549;
+	height: 200px;
+}
+
+
+figure {
+	width: 10%;
+	margin: 0 11.66%;
+	position: relative;
+	float: left;
+	display: inline-block;
+	border: 1px dotted #F4A549;
+	padding: 5px;
+
+}
+.bar {
+	background: #F2F3F4;
+	display: inline-block;
+	margin-top: 44.57px;
+	width: 100%;
+	padding: 10px 21.3%;
+
+}
+figure img {
+	width: 100%;
+	display: block;
+
+}
+/*figcaption{
+    color:#F4A549;
+    position:absolute;
+    top:100px;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-size: 1em;
+ }*/
+
+footer {
+	height: 100px;
+	text-align: center;
+	background: #402524;
+	padding: 40px;
+	font-family: 'Armata', sans-serif;
+	
+}
+
+/*footer a {
+	font-size: 2em;
+	padding: 20px 30px 20px 30px;
+	text-decoration: none;
+	color: #402524;
+	background: #F2F3F4;
+	border-radius: 50px;
+	border: solid 4px #F4A549;
+}*/
+footer a {
+  background: #F2F3F4;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border: solid 2px #F4A549;
+  border-radius: 15px;
+  font-size: 1em;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: 'Armata', sans-serif;
+  font-weight: 600;
+  color: #000;
+ 
+ }
+
+footer a:hover {
+  background: #F4A549;
+  text-decoration: none;
+}
