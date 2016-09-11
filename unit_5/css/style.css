@@ -74,12 +74,12 @@ footer nav {
 	font-size: 0.9em;
 	font-family: 'Armata', sans-serif;
 	float: left;
-	padding: 10px;
+	padding: 0.7em;
 }
 
 footer nav a {
 	width: 10%;
-	padding: 10px 20px;
+	padding: 1.7em 1.2em;
 	text-decoration: none;
 	color: #F2F3F4;
 	border-right: dotted 0.1em #F2F3F4;
@@ -92,7 +92,7 @@ footer nav a:hover{
 footer p {
 	float: right;
 	color: #F2F3F4;
-	padding: 7px 4px;
+	padding: 0.5em 0.3em;
 }
 
 h1 {
@@ -375,6 +375,7 @@ p {
 
 	.btn {
 		font-size: 3em;
+		margin: 0.5em;
 	}
 
 
@@ -410,6 +411,7 @@ p {
 	    width:100%;
 	    /*margin:1.5em auto;
     }*/
+	}
 
     header nav,
     footer nav,
@@ -422,7 +424,7 @@ p {
 
     header nav a,
     footer nav a { 
-	   /* padding: 0.4em;*/
+	   padding: 0.4em;
 	    border: none;
 	}
 
