@@ -248,9 +248,9 @@ p {
 	color: #573231;
 	background: url(stage-lighting.jpg) top right no-repeat; background-attachment:fixed;
 	background-size: cover;
-	height: 640px;
+	height: 40em;
 	text-align: center;
-	padding: 160px 0;
+	padding: 10em 0;
 	
 }
 
@@ -392,13 +392,21 @@ p {
     header nav,
     footer nav,
     footer p{
-    	font-size: 0.5em;
-    	padding: 0;
+    	float: none;
+    	text-align: center;
+    	font-size: 0.6em;
+    	padding: 0.4em;
     }
 
     header nav a,
     footer nav a { 
-	    padding: 0.3em;
+	    padding: 0.4em;
+	    border: none;
+	}
+
+	.hero {
+		height: 28em;
+		padding: 6em 0;
 	}
 
 
