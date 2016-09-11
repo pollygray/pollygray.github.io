@@ -368,12 +368,37 @@ p {
 
 	.column-2_plain p{
 		margin: 0 auto;
+		font-size: 0.8em; 
+		padding: 0 1em;
 	}
 
 	.column-2_plain img {
 		width: 96%;
 		margin-top: 8em;
+		
 	}
+
+	.hero img {
+		width: 96%;
+	}
+
+	figure{
+	    width:100%;
+	    margin:60px auto;
+    }
+
+    header nav,
+    footer nav,
+    footer p{
+    	font-size: 0.5em;
+    	padding: 0;
+    }
+
+    header nav a,
+    footer nav a { 
+	    padding: 0.3em;
+	}
+
 
 
 
