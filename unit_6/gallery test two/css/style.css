@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	display: block;
+	border: 4px solid #fff;
+}
+
+body {
+	background-color: #fff;
+}
+.wrap {
+	width: 80%;
+	margin: 100px auto;
+}
+.container {
+	width: 50%;
+	display: block;
+
+}
+
+.lrg {
+	width: 100%;
+	display: inline-block;
+}
+
+
+.med {
+	width: 50%;
+	display: inline-block;
+}
+
+.sml {
+	width: 25%;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;

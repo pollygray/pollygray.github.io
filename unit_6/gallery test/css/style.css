@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	
+}
+
+body {
+	background-color: #000;
+}
+.wrap {
+	width: 80%;
+	margin: 100px auto;
+}
+.container {
+	width: 50%;
+	display: inline-block;
+	height: 500px;
+}
+
+.lrg {
+	width: 100%;
+	display: inline-block;
+	height: 500px;
+	border: 1px dotted white;
+	background-color: #474747;
+	color: white;
+}
+h1 {
+	line-height: 500px;
+	text-align: center;
+}
+
+.med {
+	width: 50%;
+	display: inline-block;
+	height: 250px;
+	border: 1px dotted white;
+	background-color: #7f7f7f;
+	color: white;
+
+}
+h2 {
+	line-height: 250px;
+	text-align: center;
+}
+
+.sml {
+	width: 25%;
+	display: inline-block;
+	height: 125px;
+	border: 1px dotted white;
+	background-color: #f0f0f0;
+	color: white;
+
+}
+
+h3 {
+	line-height: 125px;
+	text-align: center;
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
