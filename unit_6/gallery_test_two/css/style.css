@@ -25,18 +25,18 @@ body {
 
 .lrg {
 	width: 100%;
-	display: inline-block;
+	display: block;
 }
 
 
 .med {
 	width: 50%;
-	display: inline-block;
+	display: block;
 }
 
 .sml {
 	width: 25%;
-	display: inline-block;
+	display: block;
 }
 
 .right {
