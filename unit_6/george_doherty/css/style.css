@@ -351,6 +351,11 @@ p {
 	background: #F2F3F4;
 }
 
+#portfolio_main {
+	padding: 5% 10%;
+	background: #F2F3F4;
+}
+
 
 /*Media Queries*/
 
@@ -371,6 +376,15 @@ p {
 	#about_me_main {
 		padding: 5% 0;
 		
+	}
+
+	#portfolio_main {
+	padding: 5% 5%;
+	background: #F2F3F4;
+	}
+
+	.wrap {
+	width: 90%;
 	}
 
 
@@ -404,6 +418,10 @@ p {
 		margin-top: 8em;
 		
 	}
+	.container {
+	width: 100%;
+	display: block;
+	}
 
 	h3 {
 		font-size: 4em;
@@ -414,34 +432,19 @@ p {
 		margin: 0.5em;
 	}
 
+	#portfolio_main {
+	padding: 5% 5%;
+	background: #F2F3F4;
+	}
+	.wrap {
+	width: 90%;
+	}
+
 
 @media screen and (max-width:600px){
 	body {
 		font-size: 10px;
 	}
-	}
-	.column-2_plain {
-		width: 96%;
-		padding: 0 10%;
-		margin: 0 2%;
-
-	}
-
-	.column-2_plain p{
-		margin: 0 auto;
-		/*font-size: 0.8em; 
-		padding: 0 1em;*/
-	}
-
-	.column-2_plain img {
-		width: 96%;
-		/*margin-top: 8em;*/
-		
-	}
-
-	/*.hero img {
-		width: 96%;
-	}*/
 
 	figure{
 	    width:100%;
@@ -464,10 +467,45 @@ p {
 	    border: none;
 	}
 
+	.column-2_plain {
+		width: 96%;
+		padding: 0 10%;
+		margin: 0 2%;
+
+	}
+
+	.column-2_plain p{
+		margin: 0 auto;
+		/*font-size: 0.8em; 
+		padding: 0 1em;*/
+	}
+
+	.column-2_plain img {
+		width: 96%;
+		/*margin-top: 8em;*/
+		
+	}
+
+	.container {
+	width: 100%;
+	display: block;
+	}
+
 	.hero {
 		/*height: 28em;
 		padding: 6em 0;*/
 	}
+
+	/*.hero img {
+		width: 96%;
+	}*/	
+
+	#portfolio_main {
+	padding: 5% 0%;
+	background: #F2F3F4;
+	}
+
+	
 
 
 
