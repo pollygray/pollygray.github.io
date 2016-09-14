@@ -300,7 +300,7 @@ p {
 .med_image {
 	width: 500px;
 	margin: auto;
-	
+	border: none;
 }
 .right {
 	float: right;
