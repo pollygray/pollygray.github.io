@@ -20,6 +20,7 @@ dark #402524*/
 body {
 	font-size: 16px;
 	font-family: 'Kadwa', serif;
+	background: #F2F3F4;
 }
 
 
@@ -122,7 +123,7 @@ header .current {
 }
 
 header div {
-	background: white;
+	background: #fff;
 	text-align: center;
 	padding-bottom: 3px;
 }
@@ -153,16 +154,17 @@ header hr {
 
 header nav {
 	background: #402524;
-	font-size: 0.9em;
+	font-size: 1em;
 	text-align: center;
 	padding: 10px;
 	border-bottom: solid #F4A549 2px;
+	border-top: solid #F4A549 2px;
 }
 
 header nav a {
 	padding: 10px 20px;
 	text-decoration: none;
-	color: white;
+	color: #fff;
 }
 
 header nav a:hover{
@@ -177,6 +179,31 @@ hr {
 	background: #F4A549;
 }
 
+header label{
+    display:none;
+    text-align:center;
+    text-transform:uppercase;
+    color:#999;
+    text-decoration:none;
+    font-family:sans-serif;
+    letter-spacing:1px;
+}
+
+main label {
+	background-color: #888;
+	text-align: center;
+	font-size: 2em;
+	border: solid 0.05em #F4A549;
+	color: #fff;
+	display: block;
+	margin: 1em auto;
+	width: 20%;
+}
+
+label:hover {
+	background-color: #F4A549;
+
+}
 main {
 	padding: 0 10%;
 	background: #F2F3F4;
@@ -184,7 +211,7 @@ main {
 
 main h1 {
 	color: black;
-	size 4em;
+	size: 4em;
 	padding: 200px;
 	margin: 0 auto;
 	text-align: center;
@@ -193,7 +220,7 @@ main h1 {
 main img {
 	width: 100%;
 	display: block;
-	border: 4px solid #fff;
+	
 }
 
 p {
@@ -254,6 +281,8 @@ p {
 .container {
 	width: 50%;
 	display: block;
+	float: left;
+
 
 }
 
@@ -264,10 +293,12 @@ p {
 	height: 40em;
 	text-align: center;
 	padding: 10em 0;
+	border-bottom: solid 0.5em #F4A549;
 	
 }
 .hero img {
-	height: 26em;
+	width: 26em;
+	max-width: 80%;
 
 }
 
@@ -275,6 +306,7 @@ p {
 	padding: 10px;
 	font-size: 1.5em;
 	font-family: 'Scope One', serif;
+
 }
 .left {
 	float: left;
@@ -288,7 +320,6 @@ p {
 
 .main {
 	padding: 60px 15%;
-	background: #F2F3F4;
 	height: 800px;
 }
 
@@ -314,8 +345,11 @@ p {
 }
 
 .social_media {
-	width: 60%;
-	margin: 10px auto;
+	margin: 1em auto 5em;
+	border-bottom: solid 0.4em #F4A549;
+	border-top: solid 0.4em #F4A549;
+	padding: 1em 20% 0;
+	background: #fff;
 }
 
 .social_media div {
@@ -329,14 +363,10 @@ p {
 	width: 100%;
 }
 
-.space {
-	background: #F2F3F4;
-	width: 100%;
-	height: 6.25em;
-}
+
 .wrap {
 	width: 80%;
-	margin: 100px auto;
+	margin: 6em auto;
 }
 
 /*ID's*/
@@ -351,18 +381,59 @@ p {
 	background: #F2F3F4;
 }
 
+#menu{
+    display:none;
+    visibility:hidden;
+    height:0;
+}
+
 #portfolio_main {
-	padding: 5% 10%;
+	padding: 8% 10%;
 	background: #F2F3F4;
 }
+
+#portfolio_main img {
+	border: 4px solid #fff;
+}
+
+#portfolio_2016,
+#portfolio_2015,
+#portfolio_2014,
+#portfolio_2013 {
+	display: none;
+}
+
+#year_2016,
+#year_2015,
+#year_2014,
+#year_2013 {
+	display:none;
+    visibility:hidden;
+    height:0;
+}
+
+#year_2016:checked + #portfolio_2016 {
+	display: block;
+}
+
+#year_2015:checked + #portfolio_2015 {
+	display: block;
+}
+
+#year_2014:checked + #portfolio_2014 {
+	display: block;
+}
+
+#year_2013:checked + #portfolio_2013 {
+	display: block;
+}
+
 
 
 /*Media Queries*/
 
 @media screen and (max-width:1250px){
-	body {
-		font-size: 14px;
-	}
+
 	/*figure{
 	    width:30%;
 	    margin:60px 1.6%;    
@@ -379,19 +450,17 @@ p {
 	}
 
 	#portfolio_main {
-	padding: 5% 5%;
-	background: #F2F3F4;
+	padding: 8% 5%;
 	}
 
 	.wrap {
 	width: 90%;
+
 	}
 
 
 @media screen and (max-width:1040px){
-	body {
-		font-size: 12px;
-	}
+
 /*	figure{
 	    width:100%;
 	    margin:60px 5%;
@@ -409,7 +478,6 @@ p {
 
 	.column-2_plain p{
 		margin: 0 auto;
-		font-size: 0.8em; 
 		padding: 0 1em;
 	}
 
@@ -423,29 +491,22 @@ p {
 	display: block;
 	}
 
-	h3 {
-		font-size: 4em;
-	}
+
 
 	.btn {
-		font-size: 3em;
-		margin: 0.5em;
+	margin: 0.5em;
 	}
 
 	#portfolio_main {
-	padding: 5% 5%;
-	background: #F2F3F4;
+	padding: 15% 5% 10% 5%;
 	}
 	.wrap {
 	width: 90%;
 	}
 
 
-@media screen and (max-width:600px){
-	body {
-		font-size: 10px;
-	}
-
+@media screen and (max-width:850px){
+	
 	figure{
 	    width:100%;
 	    /*margin:1.5em auto;
@@ -498,17 +559,50 @@ p {
 
 	/*.hero img {
 		width: 96%;
-	}*/	
+	}*/
+
+	.social_media {
+		padding: 1em 0 0;
+	}	
 
 	#portfolio_main {
-	padding: 5% 0%;
-	background: #F2F3F4;
+	padding: 30% 0 10% 0;
+
 	}
 
-	
+	header label{
+        display:block;
+        color: #fff;
+        padding: 0.8em 0;
+        background: #402524;
+        border-bottom: solid #F4A549 2px;
+        border-top: solid #F4A549 2px;
+}
+
+header nav a {
+	padding: 10px 20px;
+    }
+    
+    header nav{
+        display:none;
+    }
+    
+    header nav a{
+        display:block;
+    }
+    
+    #menu:checked + nav{
+        display:block;
+    }
 
 
 
+@media screen and (max-width:450px){
+	.hero {
+	height: 35em;
+	}
+
+}
 
 
 
