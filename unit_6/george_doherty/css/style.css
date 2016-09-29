@@ -9,6 +9,84 @@ off white #F2F3F4
 pink #F1D3C9
 dark #402524*/
 
+/*contact form style - need to move into sheet*/
+.container {
+  width: 20%;
+  margin: 10% auto;
+  text-align: center;
+  background: #F2F3F4;
+  padding: 20px;
+  border: 2px solid #F4A549;
+}
+
+.contact_column {
+	width: 30%;
+	margin: 120px 10%;
+	float: left;
+	color: #402524;
+	text-align: left;
+	font-family: 'Armata', sans-serif;
+}
+
+.contact_column h3, .contact_column p, .contact_column a{
+	padding: 10px 5px;
+}
+
+.contact_column h3 {
+	padding: 30px;
+	text-align: center;
+}
+
+.contact_column a {
+	color: #F4A549;
+	text-decoration: none;
+
+}
+.inline {
+	display: inline;
+}
+
+button {
+	font-size: 1.2em;
+	font-family: 'Armata', sans-serif;
+	padding: 5px 10px;
+	border-color: #F4A549;
+	background-color: #FFF;
+}
+h3 {
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  }
+
+fieldset {
+  border: none;
+}
+
+input, textarea {
+  width: 80%;
+  height: 30px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Armata', sans-serif;
+ 
+}
+textarea {
+  height: 80px;
+}
+
+label {
+  padding: 5px 10px;
+  color: #fff;
+  background: #a2a2a2;
+  border: 1px solid #fff;
+}
+
+form p {
+	text-align: center;
+	max-width: 600px;
+}
 /*General*/
 
 * {
@@ -141,6 +219,7 @@ header h2 {
 header h4 {
 	text-decoration: none;
 	color: #595757;
+	padding-bottom: 10px;
 }
 
 header hr {
@@ -341,7 +420,9 @@ p {
 	display: block;
 }
 .small_image {
-	width: 300px;
+	width: 200px;
+	margin: auto;
+	border: none;
 }
 
 .social_media {
