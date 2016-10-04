@@ -635,13 +635,12 @@ p {
 	}
 
 	.hero {
-		/*height: 28em;
-		padding: 6em 0;*/
+		height: 25em;
 	}
 
-	/*.hero img {
-		width: 96%;
-	}*/
+	.hero img {
+		width: 12em;
+	}
 
 	.social_media {
 		padding: 1em 0 0;
@@ -679,12 +678,12 @@ p {
 
 
 
-@media screen and (max-width:450px){
+/*@media screen and (max-width:450px){
 	.hero {
 		height: 35em;
 	}
 
-}
+}*/
 
 
 
