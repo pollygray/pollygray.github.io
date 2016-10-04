@@ -17,6 +17,7 @@ dark #402524*/
   background: #F2F3F4;
   padding: 20px;
   border: 2px solid #F4A549;
+  font-family: 'Armata', sans-serif;
 }
 
 .contact_column {
@@ -25,7 +26,6 @@ dark #402524*/
 	float: left;
 	color: #402524;
 	text-align: left;
-	font-family: 'Armata', sans-serif;
 }
 
 .contact_column h3, .contact_column p, .contact_column a{
