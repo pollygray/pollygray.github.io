@@ -10,15 +10,6 @@ pink #F1D3C9
 dark #402524*/
 
 /*contact form style - need to move into sheet*/
-.container {
-  width: 20%;
-  margin: 10% auto;
-  text-align: center;
-  background: #F2F3F4;
-  padding: 20px;
-  border: 2px solid #F4A549;
-  font-family: 'Armata', sans-serif;
-}
 
 .contact_column {
 	width: 30%;
@@ -163,6 +154,10 @@ footer nav a {
 	text-decoration: none;
 	color: #F2F3F4;
 	border-right: dotted 0.1em #F2F3F4;
+}
+
+footer nav a:last-child {
+	border: none;
 }
 
 footer nav a:hover{
@@ -324,7 +319,9 @@ p {
   background: #F2F3F4;
   margin: auto;
 }
-
+.border {
+	 border: 2px solid #F4A549;
+}
 .btn {
 	color: #fff;
     background-color: rgba(0, 0, 0, 0.7);
@@ -346,7 +343,7 @@ p {
    clear: both;
 }
 
-.column-2 h3 {
+/*.column-2 h3 {
 	color: #fff;
 }
 
@@ -356,14 +353,42 @@ p {
 	float: left;
 	color: #402524;
 	text-align: center;
-}
+}*/
 
 .container {
-	width: 50%;
+	width: 44%;
 	display: block;
 	float: left;
+ /*width: 20%;*/
+  margin: 10% 3%;
+  text-align: center;
+  background: #F2F3F4;
+  padding: 10px 20px 80px;
+  font-family: 'Armata', sans-serif;
+}
 
+.container h1 {
+	padding: 30px 10px;
+	font-family: 'Armata', sans-serif;
+}
+.container h4 {
+	padding: 20px 0;
+	font-size: 1.2em;
+	text-align: left;
+}
 
+.container hr {
+	width: 60%;
+	height: 2px;
+	border: none;
+	background: #F4A549;
+	margin: 0 auto;
+
+}
+.container p {
+	padding: 10px 0;
+	font-family: 'Kadwa', serif;
+	text-align: justify;
 }
 
 .hero {
@@ -388,6 +413,8 @@ p {
 	font-family: 'Scope One', serif;
 
 }
+
+
 .left {
 	float: left;
 }
@@ -409,9 +436,15 @@ p {
 }
 
 .med_image {
-	width: 500px;
+	width: 80%;
 	margin: auto;
 	border: none;
+}
+
+.portfolio_container {
+	width: 50%;
+	/*display: block;*/
+	float: left;
 }
 .right {
 	float: right;
@@ -461,6 +494,26 @@ p {
 #about_me_main {
 	padding: 5% 10%;
 	background: #F2F3F4;
+}
+
+/*#latest_news div {
+	margin: 150px 3% 10%;
+	padding: 20px 30px;
+	width: 44%;
+	float: left;
+}
+
+#latest_news:first-child {
+	border: solid 2px #F4A549;
+}
+
+#latest_news h1 {
+	padding: 20px;
+}*/
+
+#instagram {
+	border: none;
+	background: white;
 }
 
 #menu{
@@ -539,7 +592,7 @@ p {
 	width: 90%;
 
 	}
-
+}
 
 @media screen and (max-width:1040px){
 
@@ -551,7 +604,7 @@ p {
 		padding: 0 5%;
 	
 	}
-	.column-2_plain {
+	/*.column-2_plain {
 		width: 60%;
 		padding: 0 10%;
 		margin: 0 20%;
@@ -567,13 +620,12 @@ p {
 		width: 96%;
 		margin-top: 8em;
 		
-	}
+	}*/
 	.container {
-	width: 100%;
-	display: block;
+	width: 96%;
+	margin: 20% auto;
+	float: none;
 	}
-
-
 
 	.btn {
 	margin: 0.5em;
@@ -610,7 +662,7 @@ p {
 	    border: none;
 	}
 
-	.column-2_plain {
+	/*column-2_plain {
 		width: 96%;
 		padding: 0 10%;
 		margin: 0 2%;
@@ -619,19 +671,19 @@ p {
 
 	.column-2_plain p{
 		margin: 0 auto;
-		/*font-size: 0.8em; 
-		padding: 0 1em;*/
+		font-size: 0.8em; 
+		padding: 0 1em;
 	}
 
 	.column-2_plain img {
 		width: 96%;
 		/*margin-top: 8em;*/
 		
-	}
-
+	
 	.container {
-	width: 100%;
-	display: block;
+		width: 98%;
+		margin: 40% auto 0;
+		float: none;
 	}
 
 	.hero {
@@ -642,6 +694,12 @@ p {
 		width: 12em;
 	}
 
+	.med {
+	width: 100%;
+	display: block;
+	float: none;
+}
+
 	.social_media {
 		padding: 1em 0 0;
 	}	
@@ -649,6 +707,16 @@ p {
 	#portfolio_main {
 	padding: 30% 0 10% 0;
 
+	}
+
+	.portfolio_container {
+		width: 100%;
+	}
+
+	.sml {
+		width: 50%;
+		display: block;
+		float: left;
 	}
 
 	header label{
@@ -676,7 +744,7 @@ p {
         display:block;
     }
 
-
+}
 
 /*@media screen and (max-width:450px){
 	.hero {
