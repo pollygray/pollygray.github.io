@@ -286,7 +286,7 @@ main {
 
 main h1 {
 	color: black;
-	size: 4em;
+	font-size: 2em;
 	padding: 200px;
 	margin: 0 auto;
 	text-align: center;
@@ -360,10 +360,10 @@ p {
 	display: block;
 	float: left;
  /*width: 20%;*/
-  margin: 10% 3%;
+  margin: 130px 3% 100px;
   text-align: center;
   background: #F2F3F4;
-  padding: 10px 20px 80px;
+  padding: 10px 20px 20px;
   font-family: 'Armata', sans-serif;
 }
 
@@ -372,7 +372,7 @@ p {
 	font-family: 'Armata', sans-serif;
 }
 .container h4 {
-	padding: 20px 0;
+	padding: 10px 0;
 	font-size: 1.2em;
 	text-align: left;
 }
@@ -389,6 +389,19 @@ p {
 	padding: 10px 0;
 	font-family: 'Kadwa', serif;
 	text-align: justify;
+}
+
+.fixed {
+	position: fixed;
+	/*padding: 0;*/
+	width: 30%;
+}
+.fixed_clear {
+ 	position: fixed;
+ 	clear: both;
+ 	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
 }
 
 .hero {
