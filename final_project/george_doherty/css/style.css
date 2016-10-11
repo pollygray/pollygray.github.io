@@ -128,6 +128,8 @@ figure h3 {
 }
 footer {
 	background: #402524;
+	border-top: solid 0.4em #F4A549;
+	border-bottom: solid 0.4em #F4A549;
 }
 
 footer .current {
@@ -160,9 +162,7 @@ footer nav a:last-child {
 	border: none;
 }
 
-footer nav {
-	visibility: hidden;
-}
+
 
 footer nav a:hover{
 	color: #F4A549;
@@ -267,7 +267,9 @@ header label{
     font-family:sans-serif;
     letter-spacing:1px;
 }
-
+ iframe {
+ 	margin: 20px 0 -20px 0;
+ }
 main label {
 	background-color: #888;
 	text-align: center;
@@ -431,6 +433,10 @@ p {
 
 }
 
+.hidden {
+	visibility: hidden;
+}
+
 
 .left {
 	float: left;
@@ -513,6 +519,14 @@ p {
 	background: #F2F3F4;
 }
 
+#contact_form {
+	margin-bottom: 20px;
+}
+
+#contact_details p {
+	text-align: left;
+
+}
 /*#latest_news div {
 	margin: 150px 3% 10%;
 	padding: 20px 30px;
@@ -584,6 +598,28 @@ p {
 
 /*Media Queries*/
 
+@media screen and (max-height: 700px) {
+	footer nav {
+		visibility: visible;
+	}
+	.fixed_clear {
+ 	position: static;
+ 	clear: none;
+ 	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+	}
+	.fixed {
+		position: static;
+		width: 44%;
+	}
+
+	.hidden {
+	visibility: visible;
+}
+
+}
+
 @media screen and (max-width:1250px){
 
 	/*figure{
@@ -627,6 +663,10 @@ p {
 		width: 44%;
 	}
 
+	.hidden {
+	visibility: visible;
+
+}
 }
 
 @media screen and (max-width:1040px){
@@ -674,6 +714,26 @@ p {
 	}
 }
 
+@media screen and (max-width: 930px){
+
+	footer nav,
+    footer p{
+    	float: none;
+    	text-align: center;
+    	/*font-size: 0.6em;
+    	padding: 0.4em;*/
+    }
+	footer nav a { 
+	   padding: 0.4em;
+	    border: none;
+	}
+
+	footer p {
+		margin: 0 auto;
+	}
+
+}
+
 @media screen and (max-width:850px){
 	
 	figure{
@@ -682,17 +742,14 @@ p {
     }
 	
 
-    header nav,
-    footer nav,
-    footer p{
+    header nav {
     	float: none;
     	text-align: center;
     	/*font-size: 0.6em;
     	padding: 0.4em;*/
     }
 
-    header nav a,
-    footer nav a { 
+    header nav a { 
 	   padding: 0.4em;
 	    border: none;
 	}
@@ -717,7 +774,7 @@ p {
 	
 	.container {
 		width: 98%;
-		margin: 40% auto 0;
+		margin: 20px auto;
 		float: none;
 	}
 
@@ -774,10 +831,22 @@ p {
     header nav a{
         display:block;
     }
-    
+    #contact_form {
+    	margin: 150px auto 0 ;
+    }
     #menu:checked + nav{
         display:block;
     }
+
+
+}
+
+@media screen and (max-width: 547px){
+
+	footer nav,
+	.hidden {
+		visibility: hidden;
+	}
 
 }
 
