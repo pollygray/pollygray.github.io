@@ -252,7 +252,7 @@ header nav a:hover{
 
 hr {
 	width: 100%;
-	height: 0.5em;
+	height: 0.3em;
 	border: none;
 	background: #F4A549;
 }
@@ -285,7 +285,7 @@ label:hover {
 
 }
 main {
-	padding: 0 10%;
+	padding: 0 6%;
 	background: #F2F3F4;
 }
 
@@ -361,17 +361,28 @@ p {
 }*/
 
 .container {
-	width: 44%;
+	width: 46%;
 	display: block;
 	float: left;
  /*width: 20%;*/
-  margin: 130px 3% 100px;
+  margin: 130px 2% 100px;
   text-align: center;
   background: #F2F3F4;
   padding: 10px 20px 20px;
   font-family: 'Armata', sans-serif;
 }
 
+.image_container {
+	width: 46%;
+	display: block;
+	float: left;
+ 
+  margin: 130px 2% 100px;
+  /*text-align: center;
+  background: #F2F3F4;
+  padding: 10px 20px 20px;
+  font-family: 'Armata', sans-serif;*/
+}
 .container h1 {
 	padding: 30px 10px;
 	font-family: 'Armata', sans-serif;
@@ -396,11 +407,11 @@ p {
 	text-align: justify;
 }
 
-.fixed {
+/*.fixed {
 	position: fixed;
-	/*padding: 0;*/
+	padding: 0;
 	width: 30%;
-}
+}*/
 .fixed_clear {
  	position: fixed;
  	clear: both;
@@ -416,7 +427,7 @@ p {
 	height: 40em;
 	text-align: center;
 	padding: 10em 0;
-	border-bottom: solid 0.5em #F4A549;
+	border-bottom: solid 0.3em #F4A549;
 	
 }
 .hero img {
@@ -459,7 +470,7 @@ p {
 
 .med_image {
 	width: 80%;
-	margin: auto;
+	margin: 0 auto;
 	border: none;
 }
 
@@ -508,15 +519,15 @@ p {
 
 /*ID's*/
 
-#about_me {
+/*#about_me {
 	padding: 20px;
 	border: solid 2px #F4A549;
-}
+}*/
 
-#about_me_main {
+/*#about_me_main {
 	padding: 5% 10%;
 	background: #F2F3F4;
-}
+}*/
 
 #contact_form {
 	margin-bottom: 20px;
