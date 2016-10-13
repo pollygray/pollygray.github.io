@@ -704,9 +704,9 @@ p {
 	}*/
 
 	.image_container {
-	width: 98%;
+	width: 60%;
 	float: none;
-	margin: 130px auto;
+	margin: 130px auto 50px;
 	}
 
 	.container p, .container h1, .container h2, .container h3, .container h4, .container h5, .container h6{
@@ -716,7 +716,7 @@ p {
 
 	.container {
 	width: 80%;
-	margin: 20% auto;
+	margin: 10% auto;
 	float: none;
 	text-align: center;
 	}
