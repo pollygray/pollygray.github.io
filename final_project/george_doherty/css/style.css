@@ -378,10 +378,6 @@ p {
 	float: left;
  
   margin: 130px 2% 100px;
-  /*text-align: center;
-  background: #F2F3F4;
-  padding: 10px 20px 20px;
-  font-family: 'Armata', sans-serif;*/
 }
 .container h1 {
 	padding: 30px 10px;
@@ -706,10 +702,23 @@ p {
 		margin-top: 8em;
 		
 	}*/
+
+	.image_container {
+	width: 98%;
+	float: none;
+	margin: 130px auto;
+	}
+
+	.container p, .container h1, .container h2, .container h3, .container h4, .container h5, .container h6{
+		margin: 0 auto;
+		text-align: center;
+	}
+
 	.container {
-	width: 96%;
+	width: 80%;
 	margin: 20% auto;
 	float: none;
+	text-align: center;
 	}
 
 	.btn {
@@ -780,7 +789,8 @@ p {
 	.column-2_plain img {
 		width: 96%;
 		/*margin-top: 8em;*/
-		
+	
+	
 	
 	.container {
 		width: 98%;
